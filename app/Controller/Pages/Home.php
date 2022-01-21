@@ -18,8 +18,9 @@ class Home extends Page{
         //VIEW DA HOME
         $content = View::render('pages/home',[
             'name' => $obOrganization->name,
+            'description' => $obOrganization->description
         ]);
-
+        
         //RETORNA A VIEW DA PÁGINA  
         return parent::getPage('HOME', $content);
     }

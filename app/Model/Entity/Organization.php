@@ -8,32 +8,26 @@ class Organization{
     * ID da organização
     * @var integer
     */   
-   public $id = 1; 
+    public $id = 1; 
 
    /**
     * Nome da organização
     * @var string
     */
-   public $name = 'Projeto MVC';
+    public $name = 'Projeto MVC';
 
     /**
-    * Nome da organização
+    * Nome do site
     * @var string
     */
-   public $site = 'linkedin.com/in/luizhfelix1/';
+    public $site= 'teste';
 
     /**
      * Descrição da organização
      * @var string
      */
-    public $description = 'Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-    consequat. Duis aute irure dolor in reprehenderit in voluptate 
-    velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, 
-    sunt in culpa qui officia deserunt mollit anim id est laborum';
+    public $description = 'Projeto criado com o intuíto de treinar as práticas
+    de MVC em PHP';
 
 
 }

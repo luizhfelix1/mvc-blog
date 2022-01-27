@@ -75,7 +75,7 @@ class Page{
      */   
     public static function getPage($title,$content){
         return View::render('pages/page',[
-            'tittle' => $title,
+            'title' => $title,
             'header' => self::getHeader(),
             'content' => $content,
             'footer' => self::getFooter()

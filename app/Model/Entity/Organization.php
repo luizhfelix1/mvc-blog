@@ -20,7 +20,7 @@ class Organization{
     * Nome do site
     * @var string
     */
-    public $site= 'teste';
+    public $site = 'https://www.linkedin.com/in/luizhfelix1/';
 
     /**
      * Descrição da organização
